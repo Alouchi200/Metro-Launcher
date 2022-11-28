@@ -22,9 +22,20 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... vie...", "author": "Luuxis" },
-            { "message": "Salut je suis du code.", "author": "Luuxis" },
-            { "message": "Linux n' ai pas un os, mais un kernel.", "author": "Luuxis" }
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Launcher by @Alouchi200" },
+            { "message": "Launcher fork from Selvania-Launcher"},
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start", "author": "MetroLauncher" },
         ]
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
