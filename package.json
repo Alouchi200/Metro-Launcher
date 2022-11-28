@@ -1,10 +1,10 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
+    "name": "Metro2033",
+    "preductname": "Metro2033",
     "version": "1.0.5",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "description": "Launcher for Metro2033 RP server Minecraft",
     "main": "src/app.js",
-    "author": "Luuxis",
+    "author": "Alouchi200",
     "url": "http://launcher.selvania.fr",
     "engines": {
         "node": "16.x.x"
@@ -31,6 +31,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Alouchi200/Metro-Launcher.git"
     }
 }
