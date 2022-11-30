@@ -22,20 +22,20 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Launcher by @Alouchi200" },
-            { "message": "Launcher fork from Selvania-Launcher"},
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Start", "author": "MetroLauncher" },
-            { "message": "Start", "author": "MetroLauncher" },
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Launcher by Alouchi200", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Start Launcher", "author": "MetroLauncher"},
+            { "message": "Gérant : Lucasplayer91 et DiaKov", "author": "MetroLauncher"},
         ]
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
