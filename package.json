@@ -1,7 +1,7 @@
 {
     "name": "Metro2033",
     "preductname": "Metro2033",
-    "version": "3.0.2",
+    "version": "2.5.0",
     "description": "Launcher for Metro2033 RP server Minecraft",
     "main": "src/app.js",
     "author": "Alouchi200",
